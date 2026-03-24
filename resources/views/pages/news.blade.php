@@ -3,7 +3,7 @@
 @section('title', 'Accueil - Pluri\'elles SAS')
 
 @section('content')
-    <section class="max-w-7xl mx-auto px-8 mb-20">
+    <section class="max-w-7xl mx-auto px-8 mb-20 mt-24">
         <div class="max-w-3xl">
             <p class="font-label text-on-surface-variant text-[0.75rem] uppercase tracking-[0.05em] mb-4">Veille &amp;
                 Expertise</p>
@@ -16,7 +16,6 @@
             </p>
         </div>
     </section>
-    <!-- Category Filter Chips -->
     <section class="max-w-7xl mx-auto px-8 mb-12">
         <div class="flex flex-wrap gap-4 items-center">
             <button class="bg-secondary text-on-primary px-6 py-2 rounded-full text-sm font-medium">Tous les
@@ -206,23 +205,7 @@
                         class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_right_alt</span>
                 </button>
             </article>
-            <article class="flex flex-col bg-surface-container-low p-8 rounded-lg border-l-4 border-secondary">
-                <div class="flex items-center gap-3 mb-6">
-                    <span class="material-symbols-outlined text-secondary">auto_stories</span>
-                    <span class="text-[0.7rem] font-bold uppercase tracking-widest text-secondary">Ressource Offerte</span>
-                </div>
-                <h4 class="font-headline text-2xl font-bold text-primary mb-4 leading-tight">
-                    E-book : Checklist RSE pour managers
-                </h4>
-                <p class="text-on-surface-variant text-sm leading-[1.6] mb-8">
-                    Téléchargez gratuitement notre guide complet pour intégrer la RSE dans votre gestion de projet
-                    quotidienne. 25 pages de conseils concrets.
-                </p>
-                <button
-                    class="bg-primary text-white py-3 px-6 rounded-md font-bold text-sm hover:bg-primary-container transition-colors inline-flex items-center justify-center gap-2">
-                    Télécharger le PDF <span class="material-symbols-outlined text-sm">download</span>
-                </button>
-            </article>
+
         </div>
         <div class="mt-20 flex justify-center items-center gap-4">
             <button

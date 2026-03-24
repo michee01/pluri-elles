@@ -3,7 +3,7 @@
 @section('title', 'Accueil - Pluri\'elles SAS')
 
 @section('content')
-    <section class="relative h-[450px] w-full overflow-hidden flex items-center justify-center ">
+    <section class="relative h-[500px] w-full overflow-hidden flex items-center justify-center ">
         <img alt="Conseil RSE et Gestion de projet" class="absolute inset-0 w-full h-full object-cover"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuD471efxFjxxWUhCARb8uwBBl2HbLKDqC5NB8DFQkSA64-WKrR-LJPwpuHXo0MRm1eSnpNCDFE2maEKSxB_puUJxZPHuHYG8Sf92TblwK4O0B_HHYK9QsfYEkUcN8Um3XDkCzfMX9JDjXGIRhj8u_SooJdeOLmyNPiur392RFjh9d40uOhUbaNGyiekEujJwl6Fg8FDJ3xg2saPlf34PajkUTmzubs6pe5Y5BsjJw9TNaBIpGPIOFGXYU6hoZni7Mnn82l5Wlm0cwk" />
         <div class="absolute inset-0 bg-[#1B2A4E]/60 backdrop-blur-[2px]"></div>
