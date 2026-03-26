@@ -3,157 +3,155 @@
 @section('title', 'Contact - Pluri\'elles SAS')
 
 @section('content')
-    <section class="mx-auto px-8 py-16 md:py-24">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end">
-            <div>
-                <span class="font-label text-on-surface-variant uppercase tracking-widest text-xs mb-4 block">Entrons en
-                    contact</span>
-                <h1 class="font-headline text-5xl md:text-6xl font-extrabold tracking-tight text-primary leading-tight mb-8">
-                    Construisons ensemble <br />vos projets de demain.
-                </h1>
-            </div>
-            <div class="pb-2">
-                <p class="text-on-surface-variant text-lg leading-relaxed max-w-lg">
-                    Que vous souhaitiez initier une démarche RSE, optimiser votre gestion de projet ou explorer de
-                    nouvelles opportunités de croissance durable, notre équipe d'experts est à votre écoute.
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="max-w-7xl mx-auto px-8 pb-32">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
-            <div class="lg:col-span-4 space-y-12">
-                <div class="space-y-8">
-                    <div class="group">
-                        <div class="flex items-center gap-4 mb-3">
-                            <span class="material-symbols-outlined text-secondary text-2xl" data-icon="mail">mail</span>
-                            <h3 class="font-headline font-bold text-primary uppercase text-xs tracking-widest">Email
-                            </h3>
-                        </div>
-                        <p class="text-on-surface text-xl font-medium group-hover:text-secondary transition-colors">
-                            contact@plurielles-sas.f
-                        </p>
-                    </div>
-                    <div class="group">
-                        <div class="flex items-center gap-4 mb-3">
-                            <span class="material-symbols-outlined text-secondary text-2xl" data-icon="call">call</span>
-                            <h3 class="font-headline font-bold text-primary uppercase text-xs tracking-widest">Téléphone
-                            </h3>
-                        </div>
-                        <p class="text-on-surface text-xl font-medium">+33 (0)1 23 45 67 89</p>
-                    </div>
-                    <!-- Address -->
-                    <div class="group">
-                        <div class="flex items-center gap-4 mb-3">
-                            <span class="material-symbols-outlined text-secondary text-2xl"
-                                data-icon="location_on">location_on</span>
-                            <h3 class="font-headline font-bold text-primary uppercase text-xs tracking-widest">Adresse
-                            </h3>
-                        </div>
-                        <p class="text-on-surface text-lg leading-relaxed">
-                            XXXXXXXXXXXXXXXXX<br />
-                            75008 Kinshasa, République Démocratique du Congo
-                        </p>
-                    </div>
-                    <div class="group p-6 bg-surface-container-low rounded-xl border-l-4 border-secondary">
-                        <div class="flex items-center gap-4 mb-3">
-                            <span class="material-symbols-outlined text-secondary text-2xl"
-                                data-icon="schedule">schedule</span>
-                            <h3 class="font-headline font-bold text-primary uppercase text-xs tracking-widest">Horaires
-                                d'ouverture</h3>
-                        </div>
-                        <p class="text-on-surface font-medium">Lundi — Vendredi</p>
-                        <p class="text-on-surface-variant">9h00 — 17h00</p>
-                    </div>
-                </div>
-                <div class="relative h-64 w-full rounded-2xl overflow-hidden bg-surface-container-highest group">
-                    <img alt="Bureau moderne collaboratif"
-                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                        data-alt="Modern minimalist collaborative office space interior"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAX5fOlkdXtPI5k1Gv17rjF9WgtHlv1fXWrs0zYRI-yE1VgbltGgXB5y3PPWsxIRnp6-PRFn6tQKIFnSu1QLcoz9MQc1fgeKxKFQNlKTIMdAicuxJB4z6mE6lTdG-1LvmkkV6x6oqaygH-fU6uozJ_Own0BgADkwJKEVZFn_xU-chJCiuA4KOD-rLIzc8-rzYfSDconLiPcNh1BLT6sjPXaxT2Uc9VjlewR53r4LOG-_WOSN-A235gT5O1MaRT9AoMLYQb9C0bYF40" />
-                    <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
-                </div>
-            </div>
-            <div class="lg:col-span-8 bg-surface-container-low p-8 md:p-12 rounded-2xl">
-                <form action="mailto:votre-email@domaine.com" method="post" enctype="text/plain" class="space-y-10">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <div class="space-y-2">
-                            <label class="font-label text-xs uppercase tracking-widest text-on-surface-variant block"
-                                for="nom">Nom</label>
-                            <input
-                                class="w-full bg-transparent border-b border-outline/30 focus:border-primary focus:ring-0 px-0 py-3 transition-all outline-none"
-                                id="nom" name="Nom" placeholder="Votre nom" type="text" required />
-                        </div>
-                        <div class="space-y-2">
-                            <label class="font-label text-xs uppercase tracking-widest text-on-surface-variant block"
-                                for="prenom">Prénom</label>
-                            <input
-                                class="w-full bg-transparent border-b border-outline/30 focus:border-primary focus:ring-0 px-0 py-3 transition-all outline-none"
-                                id="prenom" name="Prenom" placeholder="Votre prénom" type="text" required />
-                        </div>
-                    </div>
-
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <div class="space-y-2">
-                            <label class="font-label text-xs uppercase tracking-widest text-on-surface-variant block"
-                                for="organisation">Organisation</label>
-                            <input
-                                class="w-full bg-transparent border-b border-outline/30 focus:border-primary focus:ring-0 px-0 py-3 transition-all outline-none"
-                                id="organisation" name="Organisation" placeholder="Nom de l'entreprise" type="text" />
-                        </div>
-                        <div class="space-y-2">
-                            <label class="font-label text-xs uppercase tracking-widest text-on-surface-variant block"
-                                for="email">Email</label>
-                            <input
-                                class="w-full bg-transparent border-b border-outline/30 focus:border-primary focus:ring-0 px-0 py-3 transition-all outline-none"
-                                id="email" name="Email" placeholder="email@exemple.com" type="email" required />
-                        </div>
-                    </div>
-
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <div class="space-y-2">
-                            <label class="font-label text-xs uppercase tracking-widest text-on-surface-variant block"
-                                for="telephone">Téléphone</label>
-                            <input
-                                class="w-full bg-transparent border-b border-outline/30 focus:border-primary focus:ring-0 px-0 py-3 transition-all outline-none"
-                                id="telephone" name="Telephone" placeholder="+33 0 00 00 00 00" type="tel" />
-                        </div>
-                        <div class="space-y-2">
-                            <label class="font-label text-xs uppercase tracking-widest text-on-surface-variant block"
-                                for="objet">Sujet de la demande</label>
-                            <select
-                                class="w-full bg-transparent border-b border-outline/30 focus:border-primary focus:ring-0 px-0 py-3 transition-all outline-none appearance-none cursor-pointer"
-                                id="objet" name="Sujet">
-                                <option value="Expertise RSE">Expertise RSE</option>
-                                <option value="Gestion de Projet">Gestion de Projet</option>
-                                <option value="Partenariat">Partenariat</option>
-                                <option value="Autre">Autre demande</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="space-y-2">
-                        <label class="font-label text-xs uppercase tracking-widest text-on-surface-variant block"
-                            for="message">Votre Message</label>
-                        <textarea
-                            class="w-full bg-transparent border-b border-outline/30 focus:border-primary focus:ring-0 px-0 py-3 transition-all outline-none resize-none"
-                            id="message" name="Message" placeholder="Détaillez votre demande ici..." rows="4" required></textarea>
-                    </div>
-
-                    <div class="pt-6 flex flex-col md:flex-row items-center justify-between gap-8">
-                        <p class="text-[10px] text-on-surface-variant/70 leading-tight max-w-sm text-center md:text-left">
-                            En cliquant sur envoyer, votre application de messagerie s'ouvrira pour finaliser l'envoi vers
-                            Pluri’elles SAS.
-                        </p>
-                        <button type="submit"
-                            class="w-full md:w-auto bg-primary text-white px-10 py-4 rounded-xl font-bold uppercase text-xs tracking-[0.2em] flex items-center justify-center gap-3 hover:shadow-2xl hover:-translate-y-1 transition-all active:scale-95 shadow-lg shadow-primary/20">
-                            Envoyer le message
-                            <span class="material-symbols-outlined text-lg">send</span>
-                        </button>
-                    </div>
-                </form>
-            </div>
+    <section class="relative h-[350px] flex items-center justify-center bg-black overflow-hidden mt-6">
+        <div class="absolute inset-0 opacity-20"
+            style="background-image: radial-gradient(#D4AF37 0.5px, transparent 0.5px); background-size: 30px 30px;"></div>
+        <div class="relative z-10 text-center px-6">
+            <h4 class="text-[#D4AF37] font-bold uppercase tracking-[6px] text-sm mb-4">Entrer en relation</h4>
+            <h1 class="font-black text-5xl md:text-7xl text-white uppercase tracking-tighter leading-none">
+                Contactez-<span class="text-[#D4AF37]">nous</span>
+            </h1>
+            <div class="w-24 h-1.5 bg-[#D4AF37] mx-auto mt-6"></div>
         </div>
     </section>
 
+    <section class="py-20 bg-white px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid lg:grid-cols-12 gap-16">
+
+                <div class="lg:col-span-5 space-y-12">
+                    <div>
+                        <h2 class="text-3xl font-black text-black uppercase tracking-tight mb-6">Parlons de votre <span
+                                class="text-[#D4AF37]">projet</span></h2>
+                        <p class="text-gray-600 text-lg leading-relaxed">
+                            Pour toute demande d’information ou de prise de contact, vous pouvez nous écrire ou nous joindre
+                            aux coordonnées ci-dessous.
+                        </p>
+                    </div>
+
+                    <div class="space-y-8">
+                        <div class="flex items-start gap-6 group">
+                            <div
+                                class="w-12 h-12 bg-black flex items-center justify-center rounded-xl group-hover:bg-[#D4AF37] transition-colors duration-300">
+                                <span
+                                    class="material-symbols-outlined text-[#D4AF37] group-hover:text-black font-bold">mail</span>
+                            </div>
+                            <div>
+                                <h5 class="font-bold uppercase text-xs tracking-widest text-gray-700 mb-1">E-mail</h5>
+                                <a href="mailto:info@plurielles.cd"
+                                    class="text-xl text-black hover:text-[#D4AF37] transition-colors italic">info@plurielles.cd</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-6 group">
+                            <div
+                                class="w-12 h-12 bg-black flex items-center justify-center rounded-xl group-hover:bg-[#D4AF37] transition-colors duration-300">
+                                <span
+                                    class="material-symbols-outlined text-[#D4AF37] group-hover:text-black font-bold">call</span>
+                            </div>
+                            <div>
+                                <h5 class="font-bold uppercase text-xs tracking-widest text-gray-700 mb-1">Téléphone</h5>
+                                <p class="text-xl  text-black">+243(0) 808663292</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-6 group">
+                            <div
+                                class="w-12 h-12 bg-black flex items-center justify-center rounded-xl group-hover:bg-[#D4AF37] transition-colors duration-300">
+                                <span
+                                    class="material-symbols-outlined text-[#D4AF37] group-hover:text-black font-bold">locatio</span>
+                            </div>
+                            <div>
+                                <h5 class="font-bold uppercase text-md tracking-widest text-gray-700 mb-1">Adresse</h5>
+                                <p class="text-xl  text-black">
+                                    Silikin Village - Cotex
+                                    64 Col. Mondjiba, Ngaliema, Kinshasa - RD Congo
+                                    Kinshasa, Gombe<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-3xl border-l-8 border-[#D4AF37] shadow-sm">
+                        <h5 class="font-black uppercase tracking-widest text-xs mb-4 text-gray-500">Horaires d'ouverture
+                        </h5>
+                        <div class="flex justify-between items-center text-gray-700">
+                            <span class="font-bold text-black">Lundi — Vendredi</span>
+                            <span class="text-black font-black">9h00 – 17h00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div
+                        class="bg-white p-8 md:p-12 rounded-[2rem] shadow-[0_20px_50px_rgba(0,0,0,0.06)] border border-gray-100">
+                        <form action="#" method="POST" class="grid md:grid-cols-2 gap-6">
+
+                            <div class="flex flex-col gap-2">
+                                <label class="text-xs font-bold uppercase tracking-widest text-gray-500 ml-1">Nom</label>
+                                <input type="text" name="nom" required placeholder="Votre nom"
+                                    class="bg-gray-50 border border-gray-100 rounded-xl p-4 focus:ring-2 focus:ring-[#D4AF37] focus:bg-white transition-all outline-none">
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <label class="text-xs font-bold uppercase tracking-widest text-gray-500 ml-1">Prénom</label>
+                                <input type="text" name="prenom" required placeholder="Votre prénom"
+                                    class="bg-gray-50 border border-gray-100 rounded-xl p-4 focus:ring-2 focus:ring-[#D4AF37] focus:bg-white transition-all outline-none">
+                            </div>
+
+                            <div class="flex flex-col gap-2 md:col-span-2">
+                                <label class="text-xs font-bold uppercase tracking-widest text-gray-500 ml-1">Organisation /
+                                    Entreprise</label>
+                                <input type="text" name="organisation" placeholder="Nom de votre structure"
+                                    class="bg-gray-50 border border-gray-100 rounded-xl p-4 focus:ring-2 focus:ring-[#D4AF37] focus:bg-white transition-all outline-none">
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <label class="text-xs font-bold uppercase tracking-widest text-gray-500 ml-1">E-mail</label>
+                                <input type="email" name="email" required placeholder="adresse@mail.com"
+                                    class="bg-gray-50 border border-gray-100 rounded-xl p-4 focus:ring-2 focus:ring-[#D4AF37] focus:bg-white transition-all outline-none">
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <label
+                                    class="text-xs font-bold uppercase tracking-widest text-gray-500 ml-1">Téléphone</label>
+                                <input type="tel" name="tel" placeholder="+243..."
+                                    class="bg-gray-50 border border-gray-100 rounded-xl p-4 focus:ring-2 focus:ring-[#D4AF37] focus:bg-white transition-all outline-none">
+                            </div>
+
+                            <div class="flex flex-col gap-2 md:col-span-2">
+                                <label class="text-xs font-bold uppercase tracking-widest text-gray-500 ml-1">Objet de la
+                                    demande</label>
+                                <select name="objet"
+                                    class="bg-gray-50 border border-gray-100 rounded-xl p-4 focus:ring-2 focus:ring-[#D4AF37] outline-none cursor-pointer">
+                                    <option>Demande d'information RSE</option>
+                                    <option>Audit & Diagnostic</option>
+                                    <option>Accompagnement Stratégique</option>
+                                    <option>Sous-traitance de mission</option>
+                                </select>
+                            </div>
+
+                            <div class="flex flex-col gap-2 md:col-span-2">
+                                <label
+                                    class="text-xs font-bold uppercase tracking-widest text-gray-500 ml-1">Message</label>
+                                <textarea name="message" rows="5" required placeholder="Comment pouvons-nous vous aider ?"
+                                    class="bg-gray-50 border border-gray-100 rounded-xl p-4 focus:ring-2 focus:ring-[#D4AF37] focus:bg-white transition-all outline-none resize-none"></textarea>
+                            </div>
+
+                            <div class="md:col-span-2 pt-4">
+                                <button type="submit"
+                                    class="w-full bg-black text-[#D4AF37] font-black uppercase tracking-[3px] py-6 rounded-xl hover:bg-[#D4AF37] hover:text-black transition-all duration-500 shadow-xl flex items-center justify-center gap-3 group">
+                                    Envoyer le message
+                                    <span
+                                        class="material-symbols-outlined group-hover:translate-x-2 transition-transform"></span>
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 @endsection
