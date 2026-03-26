@@ -15,25 +15,25 @@
 
         <nav class="hidden lg:flex items-center gap-8">
             <a href="{{ route('home') }}"
-                class="font-bold text-black hover:ml-3 hover:text-[#D4AF37] transition-colors duration-200 py-2 relative group">
+                class="font-bold text-black  hover:text-[#D4AF37] transition-colors duration-200 py-2 relative group">
                 Accueil
                 <span
                     class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D4AF37] transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a href="{{ route('about') }}"
-                class="font-bold text-black hover:ml-3 hover:text-[#D4AF37] transition-colors duration-200 py-2 relative group">
+                class="font-bold text-black  hover:text-[#D4AF37] transition-colors duration-200 py-2 relative group">
                 Qui sommes-nous
                 <span
                     class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D4AF37] transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a href="{{ route('services') }}"
-                class="font-bold text-black hover:ml-3 hover:text-[#D4AF37] transition-colors duration-200 py-2 relative group">
+                class="font-bold text-black  hover:text-[#D4AF37] transition-colors duration-200 py-2 relative group">
                 Services
                 <span
                     class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D4AF37] transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a href="{{ route('news') }}"
-                class="font-bold text-black hover:ml-3 hover:text-[#D4AF37] transition-colors duration-200 py-2 relative group">
+                class="font-bold text-black  hover:text-[#D4AF37] transition-colors duration-200 py-2 relative group">
                 Actualités
                 <span
                     class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#D4AF37] transition-all duration-300 group-hover:w-full"></span>

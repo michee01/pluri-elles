@@ -165,7 +165,7 @@
             <button
                 class="w-12 h-12 rounded-full border-2 border-black flex items-center justify-center text-black hover:bg-black hover:text-white transition-all">
                 <span class="material-symbols-outlined">
-                    <<< /span>
+                    << </span>
             </button>
             <button
                 class="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center font-black">1</button>
