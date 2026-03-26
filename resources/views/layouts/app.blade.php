@@ -15,7 +15,7 @@
 
     <x-navbar />
 
-    <main class="flex-1 w-full max-w-7xl mx-auto ">
+    <main class="flex-1 w-full">
         @yield('content')
     </main>
 
