@@ -283,7 +283,7 @@
                 </p>
 
                 <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
-                    <a href="contact.php"
+                    <a href="{{ route('contact') }}"
                         class="group relative inline-flex items-center justify-center bg-black text-[#D4AF37] px-12 py-6 rounded-full font-black text-lg uppercase tracking-widest overflow-hidden hover:bg-white hover:text-[#D4AF37] transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_20px_40px_rgba(0,0,0,0.2)]">
                         <span class="relative z-10 flex items-center gap-3">
                             Parlons de votre projet

@@ -8,7 +8,7 @@
                 </h4>
                 <div class="w-12 h-1 bg-[#D4AF37] mt-2"></div>
             </div>
-            <p class="text-gray-400 font-light text-sm leading-relaxed max-w-xs">
+            <p class="text-gray-400 font-light text-sm leading-relaxed max-w-xs text-justify">
                 Expertise en RSE et Gestion de projet pour une transformation durable et performante de vos activités en
                 République Démocratique du Congo.
             </p>

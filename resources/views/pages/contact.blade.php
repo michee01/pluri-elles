@@ -85,7 +85,7 @@
                 <div class="lg:col-span-7">
                     <div
                         class="bg-white p-8 md:p-12 rounded-[2rem] shadow-[0_20px_50px_rgba(0,0,0,0.06)] border border-gray-100">
-                        <form action="#" method="POST" class="grid md:grid-cols-2 gap-6">
+                        <form action="mailto:alexismavula.k@gmail.com" method="post" enctype="text/plain" class="grid md:grid-cols-2 gap-6">
 
                             <div class="flex flex-col gap-2">
                                 <label class="text-xs font-bold uppercase tracking-widest text-gray-500 ml-1">Nom</label>

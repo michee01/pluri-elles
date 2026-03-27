@@ -48,7 +48,7 @@
 
             <button id="menu-btn" type="button"
                 class="lg:hidden p-2 text-black hover:bg-gray-100 rounded-lg transition-colors">
-                <span id="menu-icon" class="material-symbols-outlined text-3xl">menu</span>
+                <span id="menu-icon" class="material-symbols-outlined text-3xl">☰ Menu</span>
             </button>
         </div>
     </div>
@@ -79,7 +79,7 @@
     btn.addEventListener('click', () => {
         menu.classList.toggle('hidden');
         // Optionnel : changer l'icône de menu à "close" si vous utilisez Material Icons
-        icon.textContent = menu.classList.contains('hidden') ? 'menu' : 'close';
+        icon.textContent = menu.classList.contains('hidden') ? '☰' : 'X';
     });
 
     // Fermer le menu si on clique à l'extérieur (optionnel mais recommandé)

@@ -43,8 +43,7 @@
                             Autonomisation des femmes
                         </h2>
                         <p class="text-gray-300 line-clamp-2 mb-6 max-w-lg">
-                            Découvrez comment les entreprises transforment leurs modèles d'affaires pour un impact positif
-                            net.
+                            Découvrez comment Pluri'elles accompagne les femmes dans les affaires pour un impact positif.
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-2 font-bold text-[#D4AF37] hover:gap-4 transition-all">

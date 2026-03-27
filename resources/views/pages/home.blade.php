@@ -48,16 +48,12 @@
                 </p>
 
                 <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
-                    <a href="{{ route('services') }}"
+                    <a href="https://www.youtube.com/@pluriellesrdc5650" target="_blank"
                         class="w-full sm:w-auto bg-[#D4AF37] text-black px-12 py-5 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white transition-all duration-300 shadow-2xl flex items-center justify-center gap-2">
-                        Découvrir nos services
+                        Découvrir nos activités
                         <span class="material-symbols-outlined"></span>
                     </a>
 
-                    <a href="{{ route('contact') }}"
-                        class="w-full sm:w-auto border-2 border-white text-white px-12 py-5 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300">
-                        Nous contacter
-                    </a>
                 </div>
             </div>
         </div>
@@ -297,7 +293,7 @@
                     Faire de la RSE un cadre d’action utile et structurant
                 </p>
                 <p class="text-gray-800 text-lg text-4xl leading-relaxed">
-                    Notre ambition est d'aider nos clientsà faire de la
+                    Notre ambition est d'aider nos clients à faire de la
                     RSE un véritable cadre d’action, au service de leur
                     développement et de leur responsabilité.
                     Au-delà de la définition d’une stratégie,
@@ -324,7 +320,7 @@
                         Pluri’elles vous accompagne avec une approche rigoureuse, adaptée à votre activité et à vos enjeux.
                     </p>
                     <div class="pt-6">
-                        <a href="contact.php"
+                        <a href="{{ route('contact') }}"
                             class="inline-block bg-[#D4AF37] text-black px-12 py-5 rounded-full font-black text-lg uppercase tracking-widest hover:bg-white hover:scale-105 transition-all duration-300">
                             Parlons de votre projet
                         </a>

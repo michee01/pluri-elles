@@ -183,7 +183,7 @@
                 </ul>
                 <!-- Découvrir nos services-->
                 <div class="mt-20 ">
-                    <a href="services.php"
+                    <a href="{{ route('services') }}"
                         class="sm:w-auto bg-[#D4AF37] text-black px-5 py-5 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-white transition-all duration-300 shadow-2xl ">
                         Découvrir nos services
                         <span class="material-symbols-outlined"></span>
